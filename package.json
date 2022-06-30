@@ -7,7 +7,7 @@
     "eslint": "^8.18.0"
   },
   "scripts": {
-    "publish": "pnpm -r run publish --access public"
+    "release": "pnpm -r publish --access public"
   },
   "repository": {
     "type": "git",
