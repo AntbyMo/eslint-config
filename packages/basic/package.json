@@ -1,6 +1,6 @@
 {
   "name": "@antby/eslint-config-basic",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "node default config",
   "main": "index.js",
   "files": ["index.js"],
@@ -8,6 +8,9 @@
   "author": "AntbyMo <mozbano@163.com>",
   "homepage": "https://github.com/AntbyMo/eslint-config",
   "license": "ISC",
+  "publishConfig":{
+    "access":"public"
+  },
   "peerDependencies":{
     "eslint":">=8.18.0"
   },

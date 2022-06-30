@@ -1,2 +1,3 @@
 node_modules
 .pnpm-*
+__test__

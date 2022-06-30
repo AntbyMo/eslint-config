@@ -1,0 +1,31 @@
+{
+  "name": "@antby/eslint-config-ts",
+  "version": "0.0.0",
+  "description": "typescript default config",
+  "main": "index.js",
+  "keywords": [
+    "eslint-config"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "publishConfig":{
+    "access":"public"
+  },
+  "author": "AntbyMo <mozbano@163.com>",
+  "homepage": "https://github.com/AntbyMo/eslint-config",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">=8.18.0",
+    "typescript":">=4.7.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0"
+  },
+  "dependencies": {
+    "@antby/eslint-config-basic": "workspace:^0.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.0",
+    "@typescript-eslint/parser": "^5.30.0",
+    "typescript": "^4.7.4"
+  }
+}
