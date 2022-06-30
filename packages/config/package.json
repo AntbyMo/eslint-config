@@ -1,0 +1,23 @@
+{
+  "name": "@antby/eslint-config",
+  "version": "0.0.0",
+  "description": "AntbyMo ESLint config presets",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "eslint": "^8.18.0"
+  },
+  "keywords": [
+    "eslint-config"
+  ],
+  "peerDependencies": {
+    "eslint": ">=8.18.0"
+  },
+  "author": "AntbyMo <mozbano@163.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@antby/eslint-config-basic": "workspace:^0.0.0"
+  }
+}

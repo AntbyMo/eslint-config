@@ -17,6 +17,15 @@ importers:
     devDependencies:
       eslint: 8.18.0
 
+  packages/config:
+    specifiers:
+      '@antby/eslint-config-basic': workspace:^0.0.0
+      eslint: ^8.18.0
+    dependencies:
+      '@antby/eslint-config-basic': link:../basic
+    devDependencies:
+      eslint: 8.18.0
+
 packages:
 
   /@eslint/eslintrc/1.3.0:

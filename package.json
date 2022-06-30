@@ -1,22 +1,23 @@
 {
-  "name": "@anzty/eslint-config",
-  "version": "0.0.1",
-  "description": "Antzy ESLint config presets",
+  "name": "eslint-config-monorepo",
+  "version": "0.0.0",
+  "description": " AntbyMo ESLint config monorepo",
+  "private":true,
   "devDependencies": {
     "eslint": "^8.18.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "pnpm run -r publish --access public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AntzyMo/eslint-config.git"
+    "url": "git+https://github.com/AntbyMo/eslint-config.git"
   },
   "keywords": [],
-  "author": "AntzyMo <mozbano@163.com>",
+  "author": "AntbyMo <mozbano@163.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AntzyMo/eslint-config/issues"
+    "url": "https://github.com/AntbyMo/eslint-config/issues"
   },
-  "homepage": "https://github.com/AntzyMo/eslint-config#readme"
+  "homepage": "https://github.com/AntbyMo/eslint-config#readme"
 }
