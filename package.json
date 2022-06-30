@@ -1,0 +1,22 @@
+{
+  "name": "@anzty/eslint-config",
+  "version": "0.0.0",
+  "description": "Antzy ESLint config presets",
+  "devDependencies": {
+    "eslint": "^8.18.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntzyMo/eslint-config.git"
+  },
+  "keywords": [],
+  "author": "AntzyMo <mozbano@163.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntzyMo/eslint-config/issues"
+  },
+  "homepage": "https://github.com/AntzyMo/eslint-config#readme"
+}
