@@ -1,7 +1,7 @@
 {
-  "name": "@antby/eslint-config",
+  "name": "@antzy/eslint-config",
   "version": "0.0.1",
-  "description": "AntbyMo ESLint config presets",
+  "description": "AntzyMo ESLint config presets",
   "main": "index.js",
   "files": [
     "index.js"
@@ -18,10 +18,10 @@
   "peerDependencies": {
     "eslint": ">=8.18.0"
   },
-  "author": "AntbyMo <mozbano@163.com>",
+  "author": "AntzyMo <mozbano@163.com>",
   "license": "ISC",
   "dependencies": {
-    "@antby/eslint-config-basic": "workspace:^0.0.0",
-    "@antby/eslint-config-ts": "workspace:^0.0.0"
+    "@antzy/eslint-config-basic": "workspace:^0.0.0",
+    "@antzy/eslint-config-ts": "workspace:^0.0.0"
   }
 }

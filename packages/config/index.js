@@ -1,6 +1,6 @@
 module.exports={
   extends:[
-    '@antby/eslint-config-basic',
-    '@antby/eslint-config-ts'
+    '@antzy/eslint-config-basic',
+    '@antzy/eslint-config-ts'
   ]
 }

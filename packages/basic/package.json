@@ -1,12 +1,12 @@
 {
-  "name": "@antby/eslint-config-basic",
+  "name": "@antzy/eslint-config-basic",
   "version": "0.0.1",
   "description": "node default config",
   "main": "index.js",
   "files": ["index.js"],
   "keywords": ["eslint-config"],
-  "author": "AntbyMo <mozbano@163.com>",
-  "homepage": "https://github.com/AntbyMo/eslint-config",
+  "author": "AntzyMo <mozbano@163.com>",
+  "homepage": "https://github.com/AntzyMo/eslint-config",
   "license": "ISC",
   "publishConfig":{
     "access":"public"

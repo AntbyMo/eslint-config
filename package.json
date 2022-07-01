@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-monorepo",
   "version": "0.0.0",
-  "description": " AntbyMo ESLint config monorepo",
+  "description": " AntzyMo ESLint config monorepo",
   "private":true,
   "devDependencies": {
     "eslint": "^8.18.0"
@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AntbyMo/eslint-config.git"
+    "url": "git+https://github.com/AntzyMo/eslint-config.git"
   },
   "keywords": [],
-  "author": "AntbyMo <mozbano@163.com>",
+  "author": "AntzyMo <mozbano@163.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AntbyMo/eslint-config/issues"
+    "url": "https://github.com/AntzyMo/eslint-config/issues"
   },
-  "homepage": "https://github.com/AntbyMo/eslint-config#readme"
+  "homepage": "https://github.com/AntzyMo/eslint-config#readme"
 }

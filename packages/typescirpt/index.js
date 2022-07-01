@@ -2,7 +2,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
  
   extends: [
-    '@antby/eslint-config-basic',
+    '@antzy/eslint-config-basic',
     'plugin:@typescript-eslint/recommended',
   ],
   plugins: [
