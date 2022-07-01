@@ -13,7 +13,6 @@ module.exports={
     'plugin:vue/vue3-recommended'
   ],
   rules: {
-    'prettier/prettier': 'error',
     'vue/require-default-prop': 'off',
     'vue/no-setup-props-destructure': 'off',
     'vue/multi-word-component-names': 'off',
