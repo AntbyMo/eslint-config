@@ -3,16 +3,20 @@
   "version": "0.0.0",
   "description": "node default config",
   "main": "index.js",
-  "files": ["index.js"],
-  "keywords": ["eslint-config"],
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint-config"
+  ],
   "author": "AntzyMo <mozbano@163.com>",
   "homepage": "https://github.com/AntzyMo/eslint-config",
   "license": "ISC",
-  "publishConfig":{
-    "access":"public"
+  "publishConfig": {
+    "access": "public"
   },
-  "peerDependencies":{
-    "eslint":">=8.18.0"
+  "peerDependencies": {
+    "eslint": ">=8.18.0"
   },
   "dependencies": {
     "eslint-config-standard": "^17.0.0",

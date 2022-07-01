@@ -1,0 +1,32 @@
+{
+  "name": "@antzy/eslint-config-vue",
+  "version": "0.0.0",
+  "description": "vue defautil config",
+  "main": "index.js",
+  "keywords": [
+    "eslint-config"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "AntzyMo <mozbano@163.com>",
+  "homepage": "https://github.com/AntzyMo/eslint-config",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">=8.18.0",
+    "typescript": ">=4.7.4"
+  },
+  "dependencies": {
+    "@antzy/eslint-config-ts": "workspace:^0.0.0",
+    "@typescript-eslint/parser": "^5.30.0",
+    "eslint-plugin-vue": "^9.1.1",
+    "typescript": "^4.7.4",
+    "vue-eslint-parser": "^9.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0"
+  }
+}
