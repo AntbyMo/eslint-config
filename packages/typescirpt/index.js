@@ -5,10 +5,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
   ],
   plugins: [
-    '@typescript-eslint',
-  ],
-  rules:{
-    'indent': 'off',
-    '@typescript-eslint/indent': ['error']
-  }
+    '@typescript-eslint'
+  ]
 }

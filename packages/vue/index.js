@@ -1,16 +1,16 @@
-module.exports={
-  overrides:[
+module.exports = {
+  overrides: [
     {
-      files:['*.vue'],
+      files: ['*.vue'],
       parser: 'vue-eslint-parser',
-      parserOptions:{
-        parser:'@typescript-eslint/parser'
+      parserOptions: {
+        parser: '@typescript-eslint/parser',
       }
-    }
+    },
   ],
-  extends:[
-    '@antzy/eslint-config-ts',
-    'plugin:vue/vue3-recommended'
+  extends: [
+    'plugin:vue/vue3-recommended',
+    '@antzy/eslint-config-ts'
   ],
   rules: {
     'vue/require-default-prop': 'off',
@@ -21,12 +21,12 @@ module.exports={
       'error',
       {
         singleline: {
-          max: 3 // 属性超过3个自动换行
+          max: 3, // 属性超过3个自动换行
         },
         multiline: {
-          max: 1 // 换行后 同一行不能超过1个
-        }
-      }
-    ]
-  }
+          max: 1, // 换行后 同一行不能超过1个
+        },
+      },
+    ],
+  },
 }
