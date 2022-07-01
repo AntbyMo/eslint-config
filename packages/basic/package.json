@@ -1,6 +1,6 @@
 {
   "name": "@antzy/eslint-config-basic",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "node default config",
   "main": "index.js",
   "files": ["index.js"],
