@@ -1,6 +1,6 @@
 {
   "name": "@antzy/eslint-config-basic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "node default config",
   "main": "index.js",
   "files": [
@@ -10,7 +10,7 @@
     "eslint-config"
   ],
   "author": "AntzyMo <mozbano@163.com>",
-  "homepage": "https://github.com/AntzyMo/eslint-config",
+  "homepage": "https://github.com/AntzyMo/eslint-config#readme",
   "license": "ISC",
   "publishConfig": {
     "access": "public"
