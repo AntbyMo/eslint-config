@@ -25,7 +25,7 @@ importers:
 
   packages/config:
     specifiers:
-      '@antzy/eslint-config-vue': workspace:^0.0.0
+      '@antzy/eslint-config-vue': workspace:^
       '@typescript-eslint/eslint-plugin': ^5.30.0
       '@typescript-eslint/parser': ^5.30.0
       eslint: ^8.18.0
@@ -48,7 +48,7 @@ importers:
 
   packages/typescirpt:
     specifiers:
-      '@antzy/eslint-config-basic': workspace:^0.0.0
+      '@antzy/eslint-config-basic': workspace:^
       '@typescript-eslint/eslint-plugin': ^5.30.0
       '@typescript-eslint/parser': ^5.30.0
       eslint: ^8.18.0
@@ -63,7 +63,7 @@ importers:
 
   packages/vue:
     specifiers:
-      '@antzy/eslint-config-ts': workspace:^0.0.0
+      '@antzy/eslint-config-ts': workspace:^
       '@typescript-eslint/parser': ^5.30.0
       eslint: ^8.18.0
       eslint-plugin-vue: ^9.1.1
