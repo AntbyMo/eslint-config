@@ -1,6 +1,6 @@
 {
   "name": "@antzy/eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "AntzyMo ESLint config presets",
   "main": "index.js",
   "files": [
@@ -21,7 +21,7 @@
   "author": "AntzyMo <mozbano@163.com>",
   "license": "ISC",
   "dependencies": {
-    "@antzy/eslint-config-vue": "workspace:^0.0.0",
+    "@antzy/eslint-config-vue": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.30.0",
     "@typescript-eslint/parser": "^5.30.0",
     "eslint-config-standard": "^17.0.0",
