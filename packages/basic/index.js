@@ -13,6 +13,13 @@ module.exports = {
     ecmaVersion: 'latest'
   },
   rules: {
-    'arrow-parens': ['error', 'as-needed']
+    // arrow function omit bracket
+    'arrow-parens': ['error', 'as-needed'],
+    'sort-imports': ['error', {
+      'ignoreCase': false,
+      'ignoreDeclarationSort': false,
+      'ignoreMemberSort': false,
+      'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']
+  }]
   }
 }
