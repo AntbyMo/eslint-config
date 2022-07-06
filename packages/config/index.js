@@ -1,5 +1,5 @@
-module.exports={
-  extends:[
+module.exports = {
+  extends: [
     '@antzy/eslint-config-vue'
   ]
 }

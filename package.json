@@ -4,6 +4,7 @@
   "description": " AntzyMo ESLint config monorepo",
   "private": true,
   "devDependencies": {
+    "@antzy/eslint-config": "workspace:^0.0.3",
     "bumpp": "^8.2.1",
     "eslint": "^8.18.0"
   },
