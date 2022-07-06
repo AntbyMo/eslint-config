@@ -14,7 +14,7 @@ module.exports = {
     indent: ['error', 2],
     // arrow function omit bracket
     'arrow-parens': ['error', 'as-needed'],
-
+    // import 排序
     'sort-imports': [
       'error',
       {
@@ -24,8 +24,10 @@ module.exports = {
         memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single']
       }
     ],
-
     'simple-import-sort/imports': 'error',
-    'simple-import-sort/exports': 'error'
+    'simple-import-sort/exports': 'error',
+    // 关闭不允许多余的return
+    'no-useless-return': 0
+
   }
 }

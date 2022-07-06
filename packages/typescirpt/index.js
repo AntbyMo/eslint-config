@@ -1,21 +1,22 @@
 module.exports = {
-  overrides:[
-    {
-      files: ['*.ts'],
-      parser: '@typescript-eslint/parser',
-    }
-  ],
+  parser: '@typescript-eslint/parser',
   extends: [
     '@antzy/eslint-config-basic',
-    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended'
   ],
   plugins: [
     '@typescript-eslint'
   ],
-  rules:{
-    '@typescript-eslint/no-non-null-assertion':'off',
-    
-    'indent': 'off',
+  rules: {
+    '@typescript-eslint/no-non-null-assertion': 'off',
+    // 类型注释间距
+    '@typescript-eslint/type-annotation-spacing': 2,
+
+    // 使用数组 T[]
+    '@typescript-eslint/array-type': 2,
+
+    indent: 'off',
     '@typescript-eslint/indent': ['error', 2]
+
   }
 }
