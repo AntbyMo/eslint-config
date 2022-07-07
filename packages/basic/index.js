@@ -23,7 +23,19 @@ module.exports = {
         endOfLine: 'auto' // 行结束
       }
     ],
-
+    // arrow function omit bracket
+    'arrow-parens': ['error', 'as-needed'],
+    // import 排序
+    'sort-imports': [
+      'error',
+      {
+        ignoreCase: false,
+        ignoreDeclarationSort: false,
+        ignoreMemberSort: false,
+        memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single']
+      }
+    ],
+    
     // 关闭不允许多余的return
     'no-useless-return': 0
   }

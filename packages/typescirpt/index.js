@@ -7,7 +7,7 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {
     '@typescript-eslint/no-non-null-assertion': 'off',
-
+    
     // 使用数组 T[]
     '@typescript-eslint/array-type': 2
   }

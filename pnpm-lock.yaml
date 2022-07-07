@@ -21,7 +21,6 @@ importers:
       eslint-plugin-n: ^15.2.3
       eslint-plugin-prettier: ^4.2.1
       eslint-plugin-promise: ^6.0.0
-      eslint-plugin-simple-import-sort: ^7.0.0
       prettier: ^2.7.1
     dependencies:
       eslint-config-prettier: 8.5.0_eslint@8.18.0
@@ -30,7 +29,6 @@ importers:
       eslint-plugin-n: 15.2.3_eslint@8.18.0
       eslint-plugin-prettier: 4.2.1_xu6ewijrtliw5q5lksq5uixwby
       eslint-plugin-promise: 6.0.0_eslint@8.18.0
-      eslint-plugin-simple-import-sort: 7.0.0_eslint@8.18.0
     devDependencies:
       eslint: 8.18.0
       prettier: 2.7.1
@@ -77,18 +75,14 @@ importers:
     specifiers:
       '@antzy/eslint-config-ts': workspace:^
       '@typescript-eslint/parser': ^5.30.0
-      '@vue/eslint-config-prettier': ^7.0.0
       eslint: ^8.18.0
       eslint-plugin-vue: ^9.1.1
-      prettier: ^2.7.1
       typescript: ^4.7.4
       vue-eslint-parser: ^9.0.3
     dependencies:
       '@antzy/eslint-config-ts': link:../typescirpt
       '@typescript-eslint/parser': 5.30.0_b5e7v2qnwxfo6hmiq56u52mz3e
-      '@vue/eslint-config-prettier': 7.0.0_r45fuxdoy44v4cqkvfhni3iz4y
       eslint-plugin-vue: 9.1.1_eslint@8.18.0
-      prettier: 2.7.1
       typescript: 4.7.4
       vue-eslint-parser: 9.0.3_eslint@8.18.0
     devDependencies:
@@ -285,18 +279,6 @@ packages:
     dependencies:
       '@typescript-eslint/types': 5.30.0
       eslint-visitor-keys: 3.3.0
-    dev: false
-
-  /@vue/eslint-config-prettier/7.0.0_r45fuxdoy44v4cqkvfhni3iz4y:
-    resolution: {integrity: sha512-/CTc6ML3Wta1tCe1gUeO0EYnVXfo3nJXsIhZ8WJr3sov+cGASr6yuiibJTL6lmIBm7GobopToOuB3B6AWyV0Iw==}
-    peerDependencies:
-      eslint: '>= 7.28.0'
-      prettier: '>= 2.0.0'
-    dependencies:
-      eslint: 8.18.0
-      eslint-config-prettier: 8.5.0_eslint@8.18.0
-      eslint-plugin-prettier: 4.2.1_xu6ewijrtliw5q5lksq5uixwby
-      prettier: 2.7.1
     dev: false
 
   /acorn-jsx/5.3.2_acorn@8.7.1:
@@ -755,14 +737,6 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
-    dependencies:
-      eslint: 8.18.0
-    dev: false
-
-  /eslint-plugin-simple-import-sort/7.0.0_eslint@8.18.0:
-    resolution: {integrity: sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==}
-    peerDependencies:
-      eslint: '>=5.0.0'
     dependencies:
       eslint: 8.18.0
     dev: false
