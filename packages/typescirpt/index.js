@@ -16,7 +16,13 @@ module.exports = {
     '@typescript-eslint/array-type': 2,
 
     indent: 'off',
-    '@typescript-eslint/indent': ['error', 2]
+    '@typescript-eslint/indent': ['error', 2],
 
+    '@typescript-eslint/member-delimiter-style': [2, {
+      multiline: {
+        delimiter: 'semi',
+        requireLast: false
+      }
+    }]
   }
 }
