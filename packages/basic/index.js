@@ -5,29 +5,26 @@ module.exports = {
     node: true
   },
   ignorePatterns: ['dist'],
-  extends: ['standard'],
+  extends: ['standard', 'prettier'],
   parserOptions: {
     ecmaVersion: 'latest'
   },
-  plugins: ['simple-import-sort'],
+  plugins: ['prettier'],
   rules: {
-    indent: ['error', 2],
-    // arrow function omit bracket
-    'arrow-parens': ['error', 'as-needed'],
-    // import 排序
-    'sort-imports': [
-      'error',
+    'prettier/prettier': [
+      2,
       {
-        ignoreCase: false,
-        ignoreDeclarationSort: false,
-        ignoreMemberSort: false,
-        memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single']
+        tabWidth: 2, // tab两个空格
+        semi: false, // 去掉尾分号
+        singleQuote: true, // 双引号变单引号
+        trailingComma: 'none', // 尾随逗号
+        arrowParens: 'avoid', // 箭头函数一个参数省略括号
+        vueIndentScriptAndStyle: true, // vue文件的<script>和<style>进行首行缩进
+        endOfLine: 'auto' // 行结束
       }
     ],
-    'simple-import-sort/imports': 'error',
-    'simple-import-sort/exports': 'error',
+
     // 关闭不允许多余的return
     'no-useless-return': 0
-
   }
 }
