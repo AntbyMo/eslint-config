@@ -8,7 +8,7 @@ Antzy ESLint config presets
 
 ## Install
 ```
-pnpm add eslint prettier -D
+pnpm add eslint -D
 pnpm add @antzy/eslint-config -D
 ```
 
