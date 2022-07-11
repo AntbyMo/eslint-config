@@ -1,10 +1,10 @@
 {
   "name": "eslint-config-monorepo",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": " AntzyMo ESLint config monorepo",
   "private": true,
   "devDependencies": {
-    "@antzy/eslint-config": "workspace:^0.0.5",
+    "@antzy/eslint-config": "workspace:^1.0.0",
     "bumpp": "^8.2.1",
     "eslint": "^8.18.0"
   },
