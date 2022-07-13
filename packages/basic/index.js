@@ -56,10 +56,22 @@ module.exports = {
     // 方法链 >= 3个换行
     'newline-per-chained-call': [2, { ignoreChainWithDepth: 3 }],
 
-    // import 超过6个换行
+    // import 解构 超过6个换行
     'object-curly-newline': [
       2,
       {
+        ObjectExpression: {
+          multiline: true,
+          minProperties: 3
+        },
+        ObjectPattern: {
+          multiline: true,
+          minProperties: 6
+        },
+        ExportDeclaration: {
+          multiline: true,
+          minProperties: 3
+        },
         ImportDeclaration: {
           multiline: true,
           minProperties: 6
