@@ -1,11 +1,9 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
-  extends: [
-    '@antzy/eslint-config-basic',
-    'plugin:@typescript-eslint/recommended'
-  ],
+  extends: ['@antzy/eslint-config-basic', 'plugin:@typescript-eslint/recommended'],
   plugins: ['@typescript-eslint'],
   rules: {
+    // 去掉禁止使用!后缀运算符
     '@typescript-eslint/no-non-null-assertion': 'off',
 
     // 使用数组 T[]

@@ -29,7 +29,7 @@ module.exports = {
     // 关闭不允许多余的return
     'no-useless-return': 0,
 
-    // 最后不能留空行
+    // 不允许多个空行
     'no-multiple-empty-lines': [2, { max: 1 }],
 
     // 括号前后 >= 3个换行

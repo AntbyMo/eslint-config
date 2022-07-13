@@ -3,20 +3,16 @@ module.exports = {
     {
       files: ['*.vue'],
       parser: 'vue-eslint-parser',
-      parserOptions: {
-        parser: '@typescript-eslint/parser'
-      },
-      rules: {
-        indent: 0
-      }
+      parserOptions: { parser: '@typescript-eslint/parser' },
+      rules: { indent: 0 }
     }
   ],
   extends: ['plugin:vue/vue3-recommended', '@antzy/eslint-config-ts'],
   rules: {
-    // 强制props有默认值
+    // 关闭强制props有默认值
     'vue/require-default-prop': 'off',
 
-    // setup不能解构
+    // setup可以解构
     'vue/no-setup-props-destructure': 'off',
 
     // 组价名不能简短
@@ -26,18 +22,18 @@ module.exports = {
     'vue/html-indent': ['error', 2],
 
     // script 缩进两列
-    'vue/script-indent': ['error', 2, { baseIndent: 1 }],
+    'vue/script-indent': [
+      'error',
+      2,
+      { baseIndent: 1 }
+    ],
 
     // 属性超过3个自动换行，换行后 同一行不能超过1个
     'vue/max-attributes-per-line': [
       'error',
       {
-        singleline: {
-          max: 3 // 属性超过3个自动换行
-        },
-        multiline: {
-          max: 1 // 换行后 同一行不能超过1个
-        }
+        singleline: { max: 3 },
+        multiline: { max: 1 }
       }
     ],
 
@@ -76,22 +72,16 @@ module.exports = {
 
     // {{ 这里有空格 }}
     'vue/mustache-interpolation-spacing': [2, 'always'],
-    'vue/no-multi-spaces': ['error', {
-      ignoreProperties: false
-    }],
+    'vue/no-multi-spaces': ['error', { ignoreProperties: false }],
 
     // 属性周围不允许等号有空格
     'vue/no-spaces-around-equal-signs-in-attribute': ['error'],
 
     // template格式
-    'vue/component-tags-order': ['error', {
-      order: [['script', 'template'], 'style']
-    }],
+    'vue/component-tags-order': ['error', { order: [['script', 'template'], 'style'] }],
 
     // 强制 defineProps defineEmits的顺序
-    'vue/define-macros-order': ['error', {
-      order: ['defineProps', 'defineEmits']
-    }],
+    'vue/define-macros-order': ['error', { order: ['defineProps', 'defineEmits'] }],
 
     // class名排序
     'vue/static-class-names-order': 2
