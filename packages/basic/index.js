@@ -41,6 +41,9 @@ module.exports = {
     'array-element-newline': [2, { multiline: true, minItems: 3 }],
 
     // 函数括号内参数有一个换行就换行
-    'function-paren-newline': [2, 'multiline']
+    'function-paren-newline': [2, 'multiline'],
+
+    // 方法链 >= 3个换行
+    'newline-per-chained-call': [2, { ignoreChainWithDepth: 3 }]
   }
 }
