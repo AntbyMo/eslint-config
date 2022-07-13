@@ -38,6 +38,9 @@ module.exports = {
     'array-bracket-newline': [2, { multiline: true, minItems: 3 }],
 
     // 括号内的元素 >= 3个换行
-    'array-element-newline': [2, { multiline: true, minItems: 3 }]
+    'array-element-newline': [2, { multiline: true, minItems: 3 }],
+
+    // 函数括号内参数有一个换行就换行
+    'function-paren-newline': [2, 'multiline']
   }
 }
