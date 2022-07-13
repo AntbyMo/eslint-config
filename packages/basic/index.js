@@ -19,7 +19,12 @@ module.exports = {
         ignoreCase: false,
         ignoreDeclarationSort: false,
         ignoreMemberSort: false,
-        memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single']
+        memberSyntaxSortOrder: [
+          'none',
+          'all',
+          'multiple',
+          'single'
+        ]
       }
     ],
 
@@ -27,7 +32,12 @@ module.exports = {
     'no-useless-return': 0,
 
     // 最后不能留空行
-    'no-multiple-empty-lines': [2, { max: 1 }]
+    'no-multiple-empty-lines': [2, { max: 1 }],
 
+    // 括号前后 >= 3个换行
+    'array-bracket-newline': [2, { multiline: true, minItems: 3 }],
+
+    // 括号内的元素 >= 3个换行
+    'array-element-newline': [2, { multiline: true, minItems: 3 }]
   }
 }
