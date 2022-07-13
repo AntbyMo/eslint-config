@@ -1,6 +1,6 @@
 {
   "name": "@antzy/eslint-config-ts",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "typescript default config",
   "main": "index.js",
   "keywords": [
