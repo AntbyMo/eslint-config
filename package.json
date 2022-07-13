@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-monorepo",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": " AntzyMo ESLint config monorepo",
   "private": true,
   "devDependencies": {
