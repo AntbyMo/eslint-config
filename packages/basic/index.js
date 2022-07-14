@@ -6,25 +6,14 @@ module.exports = {
   },
   ignorePatterns: ['dist'],
   extends: ['standard'],
+  plugins: ['simple-import-sort'],
   parserOptions: { ecmaVersion: 'latest' },
   rules: {
     // arrow function omit bracket
     'arrow-parens': ['error', 'as-needed'],
     // import 排序
-    'sort-imports': [
-      'error',
-      {
-        ignoreCase: false,
-        ignoreDeclarationSort: false,
-        ignoreMemberSort: false,
-        memberSyntaxSortOrder: [
-          'none',
-          'all',
-          'multiple',
-          'single'
-        ]
-      }
-    ],
+    'simple-import-sort/imports': 2,
+    'simple-import-sort/exports': 2,
 
     // 关闭不允许多余的return
     'no-useless-return': 0,
@@ -81,5 +70,6 @@ module.exports = {
 
     // 花括号属性强制换行，
     'object-property-newline': [2, { allowAllPropertiesOnSameLine: false }]
+
   }
 }

@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@antzy/eslint-config': workspace:^0.0.6
+      '@antzy/eslint-config': workspace:^1.0.0
       bumpp: ^8.2.1
       eslint: ^8.18.0
     devDependencies:
@@ -19,11 +19,13 @@ importers:
       eslint-plugin-import: ^2.26.0
       eslint-plugin-n: ^15.2.3
       eslint-plugin-promise: ^6.0.0
+      eslint-plugin-simple-import-sort: ^7.0.0
     dependencies:
       eslint-config-standard: 17.0.0_73zqogbxxwb3ijehtqwxiag47y
       eslint-plugin-import: 2.26.0_eslint@8.18.0
       eslint-plugin-n: 15.2.3_eslint@8.18.0
       eslint-plugin-promise: 6.0.0_eslint@8.18.0
+      eslint-plugin-simple-import-sort: 7.0.0_eslint@8.18.0
     devDependencies:
       eslint: 8.18.0
 
@@ -705,6 +707,14 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
+    dependencies:
+      eslint: 8.18.0
+    dev: false
+
+  /eslint-plugin-simple-import-sort/7.0.0_eslint@8.18.0:
+    resolution: {integrity: sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==}
+    peerDependencies:
+      eslint: '>=5.0.0'
     dependencies:
       eslint: 8.18.0
     dev: false
