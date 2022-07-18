@@ -48,6 +48,18 @@ The following configuration has been used and will be fixed automatically <br><b
 |       array-type         |            使用数组 T[]      |
 | sort-type-union-intersection-members |  （｜ or &） 排序 |
 | space-infix-ops          |         中缀运算符周围需要间距 |
+| semi                     |         禁止不必要的分号 |
+| comma-dangle             |         要求或不允许尾随逗号 |
+| type-annotation-spacing  |         类型注释间距 |
+| consistent-generic-constructors  |  如果使用构造函数 泛型就要这样写 new Map<string,number>() |
+| consistent-indexed-object-style  |         强制使用 Record |
+| member-delimiter-style    |   interface type 不要分号和逗号 |
+| method-signature-style    |   函数声明 func: (arg: string) => number |
+| space-before-blocks   |   interface 后面加空格 |
+| consistent-type-imports    |   使用引用类型时自动加上 type |
+
+
+
 
 
 <br/><br/>
