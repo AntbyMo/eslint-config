@@ -69,7 +69,44 @@ module.exports = {
     ],
 
     // 花括号属性强制换行，
-    'object-property-newline': [2, { allowAllPropertiesOnSameLine: false }]
+    'object-property-newline': [2, { allowAllPropertiesOnSameLine: false }],
+
+    // 禁用不必要的标签
+    'no-extra-label': 2,
+
+    // 禁止浮点小数
+    'no-floating-decimal': 2,
+
+    // switch 的冒号左右有空格
+    'switch-colon-spacing': 2,
+
+    // 箭头函数体后面不能换行
+    'implicit-arrow-linebreak': [2, 'beside'],
+
+    // 对多行注释格式化
+    'multiline-comment-style': [2, 'starred-block'],
+
+    // 简化赋值操作
+    'operator-assignment': [2, 'always'],
+
+    // 函数调用模板字符串后面不能有空格
+    'template-tag-spacing': [2, 'never'],
+
+    // 对象字面量中方法和属性使用简写语法
+    'object-shorthand': [
+      2,
+      'always',
+      { avoidQuotes: false }
+    ],
+
+    // 回调使用箭头函数
+    'prefer-arrow-callback': [2, { allowNamedFunctions: false }],
+
+    // 使用字符串模板连接
+    'prefer-template': 2,
+
+    // yield* 周围空格
+    'yield-star-spacing': [2, 'before']
 
   }
 }

@@ -36,6 +36,19 @@ The following configuration has been used and will be fixed automatically <br><b
 | newline-per-chained-call |       方法链 >= 3个换行         |
 |   object-curly-newline   |    import 解构 超过6个换行      |
 | object-property-newline  | 花括号属性强制换行，默认一个参数不换行 |
+| no-extra-label           | 禁用不必要的标签 |
+| object-property-newline  | 花括号属性强制换行，默认一个参数不换行 |
+| decimal                  | 禁止浮点小数 |
+| switch-colon-spacing     | switch 的冒号左右有空格 |
+| implicit-arrow-linebreak  | 箭头函数体后面不能换行 |
+| multiline-comment-style  | 对多行注释格式化 |
+| operator-assignment      | 简化赋值操作 |
+| template-tag-spacing  | 函数调用模板字符串后面不能有空格 |
+| object-shorthand  | 对象字面量中方法和属性使用简写语法 |
+| prefer-arrow-callback  | 回调使用箭头函数 |
+| prefer-template  | 使用字符串模板连接 |
+| yield-star-spacing  | yield* 周围空格 |
+
 
 
 <br/><br/>
