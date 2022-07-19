@@ -79,7 +79,10 @@ module.exports = {
         prefer: 'type-imports',
         disallowTypeAnnotations: false
       }
-    ]
+    ],
+
+    // 对象类型使用interface
+    '@typescript-eslint/consistent-type-definitions': [2, 'interface']
 
   }
 }

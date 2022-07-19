@@ -70,6 +70,8 @@ The following configuration has been used and will be fixed automatically <br><b
 | method-signature-style    |   函数声明 func: (arg: string) => number |
 | space-before-blocks   |   interface 后面加空格 |
 | consistent-type-imports    |   使用引用类型时自动加上 type |
+| consistent-type-definitions    |   对象类型使用interface |
+
 
 
 
