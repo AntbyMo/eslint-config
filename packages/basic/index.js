@@ -84,7 +84,7 @@ module.exports = {
     'implicit-arrow-linebreak': [2, 'beside'],
 
     // 对多行注释格式化
-    'multiline-comment-style': [2, 'starred-block'],
+    'multiline-comment-style': [2, 'bare-block'],
 
     // 简化赋值操作
     'operator-assignment': [2, 'always'],

@@ -5,7 +5,7 @@ module.exports = {
   rules: {
 
     // 去掉禁止使用!后缀运算符
-    '@typescript-eslint/no-non-null-assertion': 'off',
+    '@typescript-eslint/no-non-null-assertion': 0,
 
     // 使用数组 T[]
     '@typescript-eslint/array-type': 2,
@@ -82,7 +82,9 @@ module.exports = {
     ],
 
     // 对象类型使用interface
-    '@typescript-eslint/consistent-type-definitions': [2, 'interface']
+    '@typescript-eslint/consistent-type-definitions': [2, 'interface'],
 
+    // 缩进
+    '@typescript-eslint/indent': [2, 2]
   }
 }
