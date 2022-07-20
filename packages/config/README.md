@@ -19,6 +19,15 @@ pnpm add @antzy/eslint-config -D
 }
 ```
 
+# Add script for package.json
+```
+{
+  "scripts": {
+    "lint": "eslint ./src --fix"
+  }
+}
+```
+
 # Used Rules
 The following configuration has been used and will be fixed automatically <br><br>
 
