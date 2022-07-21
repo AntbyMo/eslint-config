@@ -6,9 +6,12 @@ module.exports = {
   },
   ignorePatterns: ['dist'],
   extends: ['standard'],
-  plugins: ['simple-import-sort'],
+  plugins: ['antzy', 'simple-import-sort'],
   parserOptions: { ecmaVersion: 'latest' },
   rules: {
+    // antzy
+    'antzy/suffixRef': 2,
+
     // arrow function omit bracket
     'arrow-parens': ['error', 'as-needed'],
     // import 排序
@@ -25,22 +28,12 @@ module.exports = {
     'array-bracket-newline': [
       2,
       {
-        multiline: true,
-        minItems: 3
+        multiline: true
       }
     ],
 
     // 括号内的元素 >= 3个换行
-    'array-element-newline': [
-      2,
-      {
-        multiline: true,
-        minItems: 3
-      }
-    ],
-
-    // 函数括号内参数有一个换行就换行
-    'function-paren-newline': [2, 'multiline'],
+    'array-element-newline': [2, 'consistent'],
 
     // 方法链 >= 3个换行
     'newline-per-chained-call': [2, { ignoreChainWithDepth: 3 }],
@@ -51,7 +44,7 @@ module.exports = {
       {
         ObjectExpression: {
           multiline: true,
-          minProperties: 3
+          consistent: true
         },
         ObjectPattern: {
           multiline: true,
@@ -68,7 +61,7 @@ module.exports = {
       }
     ],
 
-    // 花括号属性强制换行，
+    // 花括号属性强制换行
     'object-property-newline': [2, { allowAllPropertiesOnSameLine: false }],
 
     // 禁用不必要的标签
@@ -80,33 +73,37 @@ module.exports = {
     // switch 的冒号左右有空格
     'switch-colon-spacing': 2,
 
-    // 箭头函数体后面不能换行
-    'implicit-arrow-linebreak': [2, 'beside'],
-
-    // 对多行注释格式化
-    'multiline-comment-style': [2, 'bare-block'],
-
     // 简化赋值操作
     'operator-assignment': [2, 'always'],
 
-    // 函数调用模板字符串后面不能有空格
-    'template-tag-spacing': [2, 'never'],
-
     // 对象字面量中方法和属性使用简写语法
-    'object-shorthand': [
-      2,
-      'always',
-      { avoidQuotes: false }
-    ],
-
-    // 回调使用箭头函数
-    'prefer-arrow-callback': [2, { allowNamedFunctions: false }],
+    'object-shorthand': [2, 'always', { avoidQuotes: false }],
 
     // 使用字符串模板连接
     'prefer-template': 2,
 
-    // yield* 周围空格
-    'yield-star-spacing': [2, 'before']
+    // 缩进
+    indent: [2, 2],
 
+    // yield* 周围空格
+    'yield-star-spacing': [2, 'before'],
+
+    // 箭头函数体后面不能换行
+    'implicit-arrow-linebreak': [2, 'beside'],
+
+    // 函数调用模板字符串后面不能有空格
+    'template-tag-spacing': [2, 'never'],
+
+    // 回调使用箭头函数
+    'prefer-arrow-callback': [2, { allowNamedFunctions: false }],
+
+    // 函数括号内参数有一个换行就换行
+    'function-paren-newline': [2, 'multiline'],
+    'space-before-function-paren': [
+      2,
+      {
+        named: 'never'
+      }
+    ]
   }
 }

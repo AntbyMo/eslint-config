@@ -1,8 +1,21 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
-  extends: ['@antzy/eslint-config-basic', 'plugin:@typescript-eslint/recommended'],
+  extends: [
+    '@antzy/eslint-config-basic',
+    'plugin:@typescript-eslint/recommended'
+  ],
   plugins: ['@typescript-eslint'],
   rules: {
+    // 可以使用any
+    '@typescript-eslint/no-explicit-any': [
+      2, {
+        ignoreRestArgs: true,
+        fixToUnknown: true
+      }
+    ],
+
+    // 可以使用require
+    '@typescript-eslint/no-var-requires': 0,
 
     // 去掉禁止使用!后缀运算符
     '@typescript-eslint/no-non-null-assertion': 0,
@@ -85,6 +98,7 @@ module.exports = {
     '@typescript-eslint/consistent-type-definitions': [2, 'interface'],
 
     // 缩进
+    indent: 0,
     '@typescript-eslint/indent': [2, 2]
   }
 }

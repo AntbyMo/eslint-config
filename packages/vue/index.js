@@ -4,7 +4,10 @@ module.exports = {
       files: ['*.vue'],
       parser: 'vue-eslint-parser',
       parserOptions: { parser: '@typescript-eslint/parser' },
-      rules: { indent: 0 }
+      rules: {
+        '@typescript-eslint/indent': 0,
+        indent: 0
+      }
     }
   ],
   extends: ['plugin:vue/vue3-recommended', '@antzy/eslint-config-ts'],
@@ -22,6 +25,7 @@ module.exports = {
     'vue/html-indent': ['error', 2],
 
     // script 缩进两列
+
     'vue/script-indent': [
       'error',
       2,

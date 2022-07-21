@@ -5,6 +5,7 @@
   "private": true,
   "devDependencies": {
     "@antzy/eslint-config": "workspace:^1.4.0",
+    "eslint-plugin-antzy": "workspace:^",
     "bumpp": "^8.2.1",
     "eslint": "^8.18.0"
   },

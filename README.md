@@ -50,7 +50,6 @@ The following configuration has been used and will be fixed automatically <br><b
 | decimal                  | 禁止浮点小数 |
 | switch-colon-spacing     | switch 的冒号左右有空格 |
 | implicit-arrow-linebreak  | 箭头函数体后面不能换行 |
-| multiline-comment-style  | 对多行注释格式化 |
 | operator-assignment      | 简化赋值操作 |
 | template-tag-spacing  | 函数调用模板字符串后面不能有空格 |
 | object-shorthand  | 对象字面量中方法和属性使用简写语法 |
