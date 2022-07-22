@@ -6,12 +6,9 @@ module.exports = {
   },
   ignorePatterns: ['dist'],
   extends: ['standard'],
-  plugins: ['antzy', 'simple-import-sort'],
+  plugins: ['simple-import-sort'],
   parserOptions: { ecmaVersion: 'latest' },
   rules: {
-    // antzy
-    'antzy/suffixRef': 0,
-
     // arrow function omit bracket
     'arrow-parens': ['error', 'as-needed'],
     // import 排序
