@@ -10,7 +10,7 @@ module.exports = {
   parserOptions: { ecmaVersion: 'latest' },
   rules: {
     // antzy
-    'antzy/suffixRef': 2,
+    'antzy/suffixRef': 0,
 
     // arrow function omit bracket
     'arrow-parens': ['error', 'as-needed'],
