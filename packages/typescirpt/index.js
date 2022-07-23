@@ -7,12 +7,7 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {
     // 可以使用any
-    '@typescript-eslint/no-explicit-any': [
-      2, {
-        ignoreRestArgs: true,
-        fixToUnknown: true
-      }
-    ],
+    '@typescript-eslint/no-explicit-any': 0,
 
     // 可以使用require
     '@typescript-eslint/no-var-requires': 0,
@@ -99,6 +94,13 @@ module.exports = {
 
     // 缩进
     indent: 0,
-    '@typescript-eslint/indent': [2, 2]
+    '@typescript-eslint/indent': [2, 2],
+
+    // 可以使用 @ts-xxx
+    '@typescript-eslint/ban-ts-comment': 0,
+
+    // @ts-expect-error 转化为 @ts-expect-error
+    '@typescript-eslint/prefer-ts-expect-error': 2
+
   }
 }
