@@ -21,6 +21,7 @@
   "author": "AntzyMo <mozbano@163.com>",
   "license": "ISC",
   "dependencies": {
+    "@antzy/eslint-config-prettier": "workspace:^",
     "@antzy/eslint-config-vue": "workspace:^",
     "@typescript-eslint/eslint-plugin": "^5.30.0",
     "@typescript-eslint/parser": "^5.30.0",
