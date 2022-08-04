@@ -4,7 +4,7 @@ module.exports = {
     es2021: true,
     node: true
   },
-  ignorePatterns: ['dist', '*.d.ts', 'node_modules'],
+  ignorePatterns: ['dist', 'node_modules', 'node_modules/*.ts'],
   extends: ['standard'],
   plugins: ['simple-import-sort'],
   parserOptions: { ecmaVersion: 'latest' },
