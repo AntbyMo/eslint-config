@@ -1,6 +1,6 @@
 {
   "name": "@antzy/eslint-config",
-  "version": "1.4.8",
+  "version": "1.4.9",
   "description": "AntzyMo ESLint config presets",
   "main": "index.js",
   "files": [
