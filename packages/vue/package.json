@@ -15,10 +15,6 @@
   "author": "AntzyMo <mozbano@163.com>",
   "homepage": "https://github.com/AntzyMo/eslint-config",
   "license": "ISC",
-  "peerDependencies": {
-    "eslint": ">=8.18.0",
-    "typescript": ">=4.7.4"
-  },
   "dependencies": {
     "@antzy/eslint-config-ts": "workspace:^",
     "@typescript-eslint/parser": "^5.30.0",

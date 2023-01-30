@@ -5,6 +5,7 @@ module.exports = {
     'prettier/prettier': [
       1,
       {
+        printWidth: 120,
         jsxSingleQuote: true,
         // 双引号变单引号
         singleQuote: true,

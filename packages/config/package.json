@@ -15,9 +15,6 @@
   "keywords": [
     "eslint-config"
   ],
-  "peerDependencies": {
-    "eslint": ">=8.18.0"
-  },
   "author": "AntzyMo <mozbano@163.com>",
   "license": "ISC",
   "dependencies": {

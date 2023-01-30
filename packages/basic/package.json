@@ -15,9 +15,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "peerDependencies": {
-    "eslint": ">=8.18.0"
-  },
   "dependencies": {
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-antzy": "workspace:^",

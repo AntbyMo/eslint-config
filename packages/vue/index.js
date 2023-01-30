@@ -78,16 +78,10 @@ module.exports = {
     'vue/no-spaces-around-equal-signs-in-attribute': ['error'],
 
     // template格式
-    'vue/component-tags-order': [
-      'error',
-      { order: [['script', 'template'], 'style'] }
-    ],
+    'vue/component-tags-order': ['error', { order: [['script', 'template'], 'style'] }],
 
     // 强制 defineProps defineEmits的顺序
-    'vue/define-macros-order': [
-      'error',
-      { order: ['defineProps', 'defineEmits'] }
-    ],
+    'vue/define-macros-order': ['error', { order: ['defineProps', 'defineEmits'] }],
 
     // class名排序
     'vue/static-class-names-order': 2

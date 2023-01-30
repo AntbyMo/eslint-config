@@ -1,9 +1,6 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
-  extends: [
-    '@antzy/eslint-config-basic',
-    'plugin:@typescript-eslint/recommended'
-  ],
+  extends: ['@antzy/eslint-config-basic', 'plugin:@typescript-eslint/recommended'],
   plugins: ['@typescript-eslint'],
   rules: {
     // 可以使用any
@@ -101,6 +98,5 @@ module.exports = {
 
     // @ts-expect-error 转化为 @ts-expect-error
     '@typescript-eslint/prefer-ts-expect-error': 2
-
   }
 }
