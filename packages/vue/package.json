@@ -1,6 +1,6 @@
 {
   "name": "@antzy/eslint-config-vue",
-  "version": "1.4.9",
+  "version": "1.4.10",
   "description": "vue defautil config",
   "main": "index.js",
   "keywords": [
