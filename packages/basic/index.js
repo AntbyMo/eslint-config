@@ -6,14 +6,20 @@ module.exports = {
   },
   ignorePatterns: ['dist', 'node_modules', 'node_modules/*.ts'],
   extends: ['standard'],
-  plugins: ['simple-import-sort'],
+  plugins: ['group-import'],
   parserOptions: { ecmaVersion: 'latest' },
   rules: {
     // arrow function omit bracket
     'arrow-parens': ['error', 'as-needed'],
+    'sort-imports': [
+      2,
+      {
+        ignoreDeclarationSort: true
+      }
+    ],
+
     // import 排序
-    'simple-import-sort/imports': 2,
-    'simple-import-sort/exports': 2,
+    'group-import/imports': 2,
 
     // 关闭不允许多余的return
     'no-useless-return': 0,
