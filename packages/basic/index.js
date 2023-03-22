@@ -1,24 +1,22 @@
 module.exports = {
-  env: {
-    browser: true,
-    es2021: true,
-    node: true
-  },
-  ignorePatterns: ['dist', 'node_modules', 'node_modules/*.ts'],
-  extends: ['standard'],
+  extends: '@antfu',
   plugins: ['group-import'],
-  parserOptions: { ecmaVersion: 'latest' },
   rules: {
     // arrow function omit bracket
     'arrow-parens': ['error', 'as-needed'],
+
+    // import
+    'import/order': 0,
+    'import/first': 0,
+    'import/no-mutable-exports': 0,
+    'import/no-unresolved': 0,
+    'import/no-absolute-path': 0,
     'sort-imports': [
       2,
       {
         ignoreDeclarationSort: true
       }
     ],
-
-    // import 排序
     'group-import/imports': 2,
 
     // 关闭不允许多余的return
@@ -41,7 +39,7 @@ module.exports = {
     // 方法链 >= 3个换行
     'newline-per-chained-call': [2, { ignoreChainWithDepth: 3 }],
 
-    // import 解构 超过6个换行
+    // import 解构 大于等于6个换行
     'object-curly-newline': [
       2,
       {
@@ -70,6 +68,14 @@ module.exports = {
     // 禁用不必要的标签
     'no-extra-label': 2,
 
+    // 去除禁止使用 console
+    'no-console': 0,
+
+    // 控制 if 语句
+    'curly': 0,
+
+    'brace-style': 0,
+
     // 禁止浮点小数
     'no-floating-decimal': 2,
 
@@ -86,7 +92,7 @@ module.exports = {
     'prefer-template': 2,
 
     // 缩进
-    indent: [2, 2],
+    'indent': [2, 2],
 
     // yield* 周围空格
     'yield-star-spacing': [2, 'before'],

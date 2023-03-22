@@ -18,14 +18,6 @@
   "author": "AntzyMo <mozbano@163.com>",
   "license": "ISC",
   "dependencies": {
-    "@antzy/eslint-config-prettier": "workspace:^",
-    "@antzy/eslint-config-vue": "workspace:^",
-    "@typescript-eslint/eslint-plugin": "^5.30.0",
-    "@typescript-eslint/parser": "^5.30.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.2.3",
-    "eslint-plugin-promise": "^6.0.0",
-    "typescript": "^4.7.4"
+    "@antzy/eslint-config-vue": "workspace:^"
   }
 }

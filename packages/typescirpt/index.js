@@ -24,6 +24,9 @@ module.exports = {
     // 禁止不必要的分号
     '@typescript-eslint/semi': [2, 'never'],
 
+    // 禁止 if else 换行
+    '@typescript-eslint/brace-style': 0,
+
     // 要求或不允许尾随逗号
     '@typescript-eslint/comma-dangle': [
       2,
@@ -90,7 +93,7 @@ module.exports = {
     '@typescript-eslint/consistent-type-definitions': [2, 'interface'],
 
     // 缩进
-    indent: 0,
+    'indent': 0,
     '@typescript-eslint/indent': [2, 2],
 
     // 可以使用 @ts-xxx
