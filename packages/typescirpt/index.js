@@ -27,6 +27,9 @@ module.exports = {
     // 禁止 if else 换行
     '@typescript-eslint/brace-style': 0,
 
+    // 禁止函数没在声明前使用
+    '@typescript-eslint/no-use-before-define': 0,
+
     // 要求或不允许尾随逗号
     '@typescript-eslint/comma-dangle': [
       2,

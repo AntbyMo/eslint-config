@@ -2,6 +2,9 @@ module.exports = {
   extends: '@antfu',
   plugins: ['group-import'],
   rules: {
+    // antfu plugin
+    'antfu/if-newline': 0,
+
     // arrow function omit bracket
     'arrow-parens': ['error', 'as-needed'],
 
