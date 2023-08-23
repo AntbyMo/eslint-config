@@ -1,6 +1,6 @@
 {
   "name": "@antzy/eslint-config-vue",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "description": "vue default config",
   "main": "index.js",
   "keywords": [
