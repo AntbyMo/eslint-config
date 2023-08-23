@@ -27,7 +27,6 @@
   },
   "homepage": "https://github.com/AntzyMo/eslint-config",
   "devDependencies": {
-    "eslint": "^8.20.0",
     "vitest": "^0.18.1"
   }
 }

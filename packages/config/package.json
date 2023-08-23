@@ -9,15 +9,13 @@
   "publishConfig": {
     "access": "public"
   },
-  "devDependencies": {
-    "eslint": "^8.18.0"
-  },
   "keywords": [
     "eslint-config"
   ],
   "author": "AntzyMo <mozbano@163.com>",
   "license": "ISC",
   "dependencies": {
-    "@antzy/eslint-config-vue": "workspace:^"
+    "@antzy/eslint-config-vue": "workspace:^",
+    "@antzy/eslint-config-react": "workspace:^"
   }
 }

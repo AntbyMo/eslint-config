@@ -21,6 +21,6 @@
     "eslint-plugin-group-import": "latest"
   },
   "devDependencies": {
-    "eslint": "^8.18.0"
+    "eslint": "^8.44.0"
   }
 }
