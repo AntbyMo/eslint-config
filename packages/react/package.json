@@ -1,6 +1,6 @@
 {
   "name": "@antzy/eslint-config-react",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "react default config",
   "main": "index.js",
   "keywords": [
