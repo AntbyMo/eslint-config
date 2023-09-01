@@ -5,6 +5,9 @@ module.exports = {
     // antfu plugin
     'antfu/if-newline': 0,
 
+    // 没引入清空
+    'unused-imports/no-unused-imports': 2,
+
     // arrow function omit bracket
     'arrow-parens': ['error', 'as-needed'],
 

@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@antzy/eslint-config-vue']
+  extends: ['@antzy/eslint-config-vue','@antzy/eslint-config-react']
 }
