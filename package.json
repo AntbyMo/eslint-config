@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "@antzy/eslint-config",
   "version": "3.0.0",
   "description": " AntzyMo ESLint config",
   "type": "module",
