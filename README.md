@@ -14,9 +14,13 @@ pnpm add @antzy/eslint-config -D
 
 # Config eslintrc.config.js
 ```
-import antzy from '@antfu/eslint-config'
+import { antzy } from '@antfu/eslint-config'
 
-export default antzy()
+export default antzy({
+  rules:{
+     /* your custom config */
+  }
+})
 ```
 # Add script for package.json
 ```
