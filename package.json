@@ -16,7 +16,7 @@
   },
   "scripts": {
     "dev": "tsup src/index.ts --format esm --watch",
-    "build": "tsup src/index.ts --format esm,cjs --clean --dts",
+    "build": "tsup src/index.ts --splitting  --format cjs,esm --clean --dts ",
     "release": "bumpp --commit --push --tag && pnpm -r publish"
   },
   "devDependencies": {
