@@ -8,9 +8,15 @@
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
   "scripts": {
     "dev": "tsup src/index.ts --format esm --watch",
-    "build": "tsup src/index.ts --format esm --clean --dts",
+    "build": "tsup src/index.ts --format esm,cjs --clean --dts",
     "release": "bumpp --commit --push --tag && pnpm -r publish"
   },
   "devDependencies": {
