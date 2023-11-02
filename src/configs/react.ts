@@ -8,10 +8,12 @@ export default [
     },
     rules: {
       ...pluginReact.configs.recommended.rules,
+      'style/brace-style': 0,
+      'style/indent': 0,
 
       'react/react-in-jsx-scope': 0,
       'react/jsx-closing-bracket-location': 0,
-      'react/jsx-closing-tag-location': 2,
+      'react/jsx-closing-tag-location': 0,
       'react/jsx-wrap-multilines': 2,
       'react/no-unknown-property': 0,
       'react/jsx-child-element-spacing': 0,
@@ -30,7 +32,7 @@ export default [
       'react/jsx-equals-spacing': 2,
 
       // attr的间距
-      'react/jsx-indent-props': [2, 2],
+      'react/jsx-indent-props': 0,
       '@typescript-eslint/indent': 0,
 
       // jsx的缩进
@@ -40,7 +42,7 @@ export default [
       'react/jsx-max-props-per-line': [2, { maximum: 3 }],
 
       // {count && title} => {count ? title : null}
-      'react/jsx-no-leaked-render': [2, { validStrategies: ['ternary', 'coerce'] }],
+      'react/jsx-no-leaked-render': [2, { validStrategies: ['coerce', 'ternary'] }],
 
       // 禁止不必要的<></>
       'react/jsx-no-useless-fragment': 2,
