@@ -1,6 +1,6 @@
 {
   "name": "@antzy/eslint-config",
-  "version": "3.2.4",
+  "version": "3.2.5",
   "description": " AntzyMo ESLint config",
   "type": "module",
   "main": "./dist/index.js",
