@@ -16,6 +16,10 @@ export default [
       '@typescript-eslint/indent': 0,
       'indent': 0,
 
+      // 解决vue缩进
+      'style/indent': 0,
+      'ts/indent': 0,
+
       // 关闭强制props有默认值
       'vue/require-default-prop': 'off',
 
