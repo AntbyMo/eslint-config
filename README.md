@@ -1,18 +1,17 @@
-# eslint-config
-![NPM](https://img.shields.io/npm/l/@antzy/eslint-config) &nbsp;
-![npm (scoped)](https://img.shields.io/npm/v/@antzy/eslint-config?color=%20) <br/>
+# @antzy/eslint-config
+[![npm](https://img.shields.io/npm/v/@antzy/eslint-config?color=444&label=)](https://npmjs.com/package/@antzy/eslint-config)
 
 Antzy ESLint config presets
 
--  Supports `vue` 、`react`、 `ts` 、`js`
+## Usage
 
-# Install
+### Install
 ```
 pnpm add eslint -D
 pnpm add @antzy/eslint-config -D
 ```
 
-# Config eslintrc.config.js
+### Config eslint.config.js
 With `"type"`: `"module"` in package.json (recommended):
 ```
 import { antzy } from '@antfu/eslint-config'
@@ -33,12 +32,4 @@ module.exports = antzy({
   }
 })
 
-```
-# Add script for package.json
-```
-{
-  "scripts": {
-    "lint": "eslint ./src --fix"
-  }
-}
 ```
