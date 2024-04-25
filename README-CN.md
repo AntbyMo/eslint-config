@@ -1,16 +1,18 @@
+
 # @antzy/eslint-config
 
 <p align="center">
-English | <a href="README-CN.md">中文</a>
+<a href="https://github.com/AntzyMo/eslint-config">English</a> | 中文
 </p>
 
-Thanks to [`@antfu/eslint-config`](https://github.com/antfu/eslint-config), because of it, creating code formats that suit our style has become much easier.
+感谢 [`@antfu/eslint-config`](https://github.com/antfu/eslint-config)，正因为有了它，制定属于自己风格的代码格式已经不再是难事了。
 
-## Usage
+## 用法
 
-> Tips: If you don't want to manually install, [here is a quick installation method](https://github.com/AntzyMo/ieslint-cli). Just enter one command to save the hassle of repetitive configuration operations.
+> Tips: 如果不想手动安装，[这里提供快速安装方法](https://github.com/AntzyMo/ieslint-cli)，输入一条命令，省去重复配置操作。
 
-### Manual Install
+
+### 手动安装
 ```bash
 pnpm add eslint -D
 pnpm add @antzy/eslint-config -D
@@ -42,4 +44,5 @@ module.exports = antzy({
 
 ## License
 [MIT](./LICENSE) License &copy; 2023-PRESENT [AntzyMo](https://github.com/AntzyMo)
+
 
