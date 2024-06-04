@@ -7,5 +7,9 @@ export function antzy(config: TypedFlatConfigItem): ReturnType<typeof antfu>
 export function antzy(config: TypedFlatConfigItem) {
   const restRules: TypedFlatConfigItem[] = [groupImport, vue, config]
 
-  return antfu(antfuRules, restRules)
+  return antfu({
+    typescript: true,
+    vue: true,
+    ...antfuRules
+  }, restRules)
 }
