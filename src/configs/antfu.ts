@@ -37,6 +37,7 @@ export default {
     /* 使用字符串模板拼接 */
     'prefer-template': 2,
     /* 箭头函数只有一个参数或没有参数时，省略括号 */
-    'style/arrow-parens': [2, 'as-needed']
+    'style/arrow-parens': [2, 'as-needed'],
+    'perfectionist/sort-imports': 0
   }
 } as TypedFlatConfigItem
